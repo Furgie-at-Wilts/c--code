@@ -15,3 +15,5 @@ Console.WriteLine();
 Console.WriteLine(@"    c:\source\repos    
         (this is where your code goes)"); // The @ symbol before the string indicates that it is a verbatim string literal, which means that escape sequences are not processed and the string is taken as-is. This allows you to include backslashes and newlines without needing to escape them.
 Console.WriteLine();
+// Kon'nichiwa World
+Console.WriteLine("\u3053\u3093\u306B\u3061\u306F World!"); // \u is an escape sequence for a Unicode character, note that this line doesn't work
